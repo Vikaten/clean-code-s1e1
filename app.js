@@ -29,7 +29,7 @@ var createNewTaskElement=function(taskString){
     var editButton=document.createElement("button");//edit button
 
     //button.delete
-    var deleteButton=document.createElement("button");//delete button
+    var deleteButton = document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
 
     label.innerText=taskString;
@@ -44,8 +44,9 @@ var createNewTaskElement=function(taskString){
     editButton.className = "todolist-block__button-edit button";
 
     deleteButton.className =
-      "todolist-block__button-delete todolist-block__icon-remove button";
-    deleteButtonImg.src='./remove.svg';
+      "todolist-block__button-delete  button";
+    deleteButtonImg.src = './remove.svg';
+    deleteButtonImg.className = "todolist-block__icon-remove";
     deleteButton.appendChild(deleteButtonImg);
 
 
