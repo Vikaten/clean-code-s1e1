@@ -137,15 +137,15 @@ button:hover {
 }
 
 /* Edit Task */
-.todolist-block__incomplete-tasks .todolist-block__todo-item .todolist-block__task-input {
+.todolist-block__incompleted-tasks .todolist-block__todo-item .todolist-block__task-input {
   display: none;
 }
 
-.todolist-block__incomplete-tasks .todolist-block__todo-item.edit-mode .todolist-block__task-input {
+.todolist-block__incompleted-tasks .todolist-block__todo-item.edit-mode .todolist-block__task-input {
   display: inline-block;
   width: 224px;
 }
 
-.todolist-block__incomplete-tasks .todolist-block__todo-item.edit-mode label {
+.todolist-block__incompleted-tasks .todolist-block__todo-item.edit-mode label {
   display: none;
 }
